@@ -1,0 +1,13 @@
+@import "../../globals/variables.scss";
+
+.LoginBackground {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: $persian-green;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,10 @@
+@import "../../globals/variables.scss";
+
+.Container {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: $charcoal;
+  flex-direction: column;
+}

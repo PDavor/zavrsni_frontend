@@ -1,0 +1,8 @@
+#sadrzaj {
+}
+
+@media all and (max-width: 600px) {
+  #sadrzaj {
+    width: 100vw;
+  }
+}

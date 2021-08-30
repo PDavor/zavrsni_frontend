@@ -1,0 +1,12 @@
+.ContentWrapperRow {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 800px) {
+  .ContentWrapperRow {
+    flex-direction: column;
+  }
+}

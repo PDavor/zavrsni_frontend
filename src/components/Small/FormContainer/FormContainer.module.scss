@@ -1,0 +1,33 @@
+@import "../../../globals/variables.scss";
+
+.FormContainer {
+  color: $white;
+  width: 30vw;
+  padding: 2em;
+  background: $charcoal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .Title {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .FormContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .FormContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Input {
+    width: 70%;
+  }
+}

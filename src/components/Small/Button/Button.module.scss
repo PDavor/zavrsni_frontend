@@ -1,0 +1,27 @@
+@import "../../../globals/variables.scss";
+
+.Button {
+  background-color: $deep-orange;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  color: $white;
+  cursor: pointer;
+  margin: 1rem;
+  &:hover {
+    animation-name: transition;
+    animation-duration: 1s;
+  }
+}
+
+@keyframes transition {
+  from {
+    background-color: $deep-orange;
+  }
+  to {
+    background-color: $crayola;
+  }
+}

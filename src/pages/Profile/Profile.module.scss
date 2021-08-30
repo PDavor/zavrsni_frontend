@@ -1,0 +1,67 @@
+@import "../../globals/variables.scss";
+
+.ProfileContainer {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: $persian-green;
+}
+
+.ProfileCard {
+  padding: 1em;
+  width: 40vw;
+  display: flex;
+  height: auto;
+  background-color: $charcoal;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.Picture {
+  max-width: 200px;
+  width: 100%;
+}
+
+.Content {
+  color: $white;
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Cert {
+  padding-top: 1.5em;
+  border-bottom: 1px solid;
+}
+
+.Ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Li {
+  padding: 1em;
+  list-style: none;
+}
+
+@media all and (max-width: 1400px) {
+  .ProfileCard {
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .ProfileCard {
+    width: 100vw;
+    margin: 0 auto;
+  }
+}

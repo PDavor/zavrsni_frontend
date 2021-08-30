@@ -1,0 +1,40 @@
+@import "../../../globals/variables.scss";
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 33vh;
+  background: $persian-green;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.ContainerSecondary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 33vh;
+  background: $charcoal;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.h2 {
+  font-size: 2rem;
+  width: 100%;
+}
+
+.Description {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

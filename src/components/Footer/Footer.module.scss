@@ -1,0 +1,15 @@
+@import "../../globals/variables.scss";
+
+.FooterContainer {
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 1em;
+  text-align: center;
+  justify-content: center;
+  background: $white;
+  margin-bottom: 0em;
+  bottom: 0em;
+  position: fixed;
+}
