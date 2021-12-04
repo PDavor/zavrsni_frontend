@@ -34,4 +34,4 @@ The backend was created with Express and MongoDB.
 
 ## Application preview
 
-The application is hosted on Heroku and can be found here: https://dashboard.heroku.com/apps/shrouded-reaches-30788
+The application is hosted on Heroku and can be found here: https://shrouded-reaches-30788.herokuapp.com/
